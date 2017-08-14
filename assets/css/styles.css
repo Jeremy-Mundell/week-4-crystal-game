@@ -1,0 +1,53 @@
+body {  background-image: url();
+
+}
+
+h1 {
+background: orange;
+width: 250px;
+
+}
+
+#instructions { background: blue;
+	width: 500px;
+	height: 300px;
+color: white;
+}
+
+#randomNumber {
+	background: #42e8f4;
+	width: 150px;
+
+
+}
+
+#counter {
+	background: #42e8f4;
+	width: 150px;
+	float: right;
+	clear: left;
+
+
+
+}
+img {
+	width: 75px;
+
+
+
+}
+
+h2 { background: #f4b342;
+	width: 200px;
+
+
+}
+
+
+
+#yourScore {
+	background: #f4b342;
+	width: 200px;
+
+
+}
