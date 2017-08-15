@@ -2,33 +2,54 @@
 <html>
 <head>
 	<title>Crystal Game</title>
+
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="assets/css/css.reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 <body>
 
 
-<h1>CRYSTAL COLLECTOR</h1>
+<h1>Crystals Collector!</h1>
 
-<div id="instructions">instructions</div>
-
-<div id="randomNumber">random #</div>
-
-<div id="counter">counter</div>
-
-<div class="crystals">
-<img   src="assets/images/crystal1.jpg">
-<img   src="assets/images/crystal2.jpg">
-<img  src="assets/images/crystal3.jpg">
-<img  src="assets/images/crystal4.jpg">
+<div id="instructions">
+	<p>You will be given a random number at the start of the game.</p>
+ <br>
+	<p>There are four below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	  <br>
+	<p>You win the game by matching your toal score to a random number. You lose the game if you total score goes above the random number. </p>
+  <br>
+	<p>The value of each crystal is hidden from you intil you click on it.</p>
+  <br>
+	<p>Each time when the game starts, the game will change the values of each crystal</p>
 </div>
 
-<h2>Your Score Is</h2>
-<div id="yourScore">your output score</div>
+<div class="group">
+<div class="total"></div>
+
+
+<div class="result">
+Wins:<div id="wins"></div>Losses:<div id="losses"></div>
+</div>
+</div>
+	
+
+<div class="crystals" style="clear: left;">
+
+<img id="crystal1"  src="assets/images/crystal1.jpg" class="click">
+<img id="crystal2"  src="assets/images/crystal2.jpg" class="click">
+<img  id="crystal3" src="assets/images/crystal3.jpg" class="click">
+<img id="crystal4" src="assets/images/crystal4.jpg" class="click">
+</div>
+
+<h3>Your total score is:</h3>
+
+<div class="addition"></div>
 
 
 <script type="text/javascript" src="assets/js/js.js">
