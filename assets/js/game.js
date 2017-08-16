@@ -63,6 +63,7 @@ if (addition == total){
 losses = losses + 1;
 alert("the crystals have spoken, you lose!!");
  restart();
+  
 } else {
    updateAddition();
 
