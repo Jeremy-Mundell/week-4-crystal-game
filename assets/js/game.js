@@ -57,11 +57,13 @@ if (addition == total){
   wins = wins + 1;
 
   alert("you win!!");
+  
   restart();
 
 } else if (addition>total) {
 losses = losses + 1;
 alert("the crystals have spoken, you lose!!");
+  
  restart();
   
 } else {
